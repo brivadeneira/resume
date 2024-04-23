@@ -74,40 +74,6 @@
   }
 }
 
-.icon-links {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: relative;
-  top: 4px;
-  text-align: center;
-  border-top: 2px solid #c7c7c7;
-  padding-top: .4rem;
-
-  @include media_larger_than_mobile {
-    float: right;
-    border-top: none;
-    padding-top: 0;
-  }
-
-  .icon-link-item {
-    display: inline-block;
-    margin-left: 5px;
-  }
-
-  .icon-link { display: inline-block;
-
-    &:hover .icon path {
-      fill: #333;
-      @include transition(all .2s ease);
-    }
-  }
-
-  .icon {
-    height: 28px;
-  }
-}
-
 .contact-button {
   @include border-radius(3px);
   background-color: #efefef;
