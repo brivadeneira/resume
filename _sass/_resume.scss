@@ -74,7 +74,7 @@
   }
 }
 
-.contact-button {
+.download-button {
   @include border-radius(3px);
   background-color: #efefef;
   text-decoration: none;
@@ -106,7 +106,7 @@
   .resume-item-title {
     @include sans_bold;
     margin: 0 0 .75rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: -.05rem;
     line-height: 1;
   }
@@ -119,6 +119,14 @@
     &.award-title {
       font-size: 1rem;
     }
+
+    &.dates {
+      font-size: 1rem;
+    }
+  }
+
+  .resume-item-details.right-align {
+  text-align: right;
   }
 
   .resume-item-title,
@@ -138,6 +146,25 @@
   }
 
   .resume-item-copy { margin: .75rem 0 0; }
+}
+
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.resume-table td {
+  padding: 0;
+  margin: 0;
+  vertical-align: top; /* Align content to the top of the cell */
+}
+
+.resume-table .right-align {
+  text-align: right;
+}
+
+.resume-item-copy {
+  margin-top: 0; /* Reduce top margin of the summary paragraph */
 }
 
 // footer styles
