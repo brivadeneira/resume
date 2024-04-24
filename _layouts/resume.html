@@ -125,18 +125,21 @@
 
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
-          <p class="resume-item-copy" itemprop="description">
-            <ul class="resume-item-list">
-              {% for award in education.awards %}
-              <li>{{ award.award }}</li>
-              {% endfor %}
-            </ul>
-
-
-          <p class="resume-item-copy">{{ education.summary }}</p>
+        <table class="resume-table"><tbody>
+        <!-- Uni with link | Location -->
+        <tr>
+          <td>
+            <h3 class="resume-item-title" itemprop="name"><a href="{{ education.uni_url }}">{{ education.uni }}</a></h3>
+          </td>
+            <td><h4 class="resume-item-details right-align" itemprop="description">{{ education.location }}</h4></td>
+          </tr>
+        <!-- Degree | Year -->
+          <tr>
+            <td><h4 class="resume-item-details" itemprop="description">{{ education.degree }}</h4></td>
+            <td><h4 class="resume-item-details right-align dates" itemprop="description">Graduation year: {{ education.year }}</h4></td>
+          </tr>
+          <tr>
+          </tbody></table>
         </div>
         {% endfor %}
       </section>
