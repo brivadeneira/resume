@@ -41,6 +41,7 @@
 
   .header-contact-info {
     @include sans;
+    font-size: 1.250rem;
     text-align: center;
   }
   .header-contact-info p a {
@@ -70,7 +71,10 @@
   }
 
   .executive-summary {
-    @include media_larger_than_mobile { font-size: 1.125rem; }
+    @include media_larger_than_mobile {
+        font-size: 1.125rem;
+        text-align: justify;
+    }
   }
 }
 
@@ -199,28 +203,51 @@
       font-size: 2rem;
       margin: 0 0 .2rem;
     }
+    .title-bar {
+      @include section_border;
+      margin-top: .2rem;
+      padding: .0rem 0;
+      @include clearfix;
+      .header-title {
+        @include sans_bold;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+    .header-contact-info {
+        font-size: 12px;
+    }
+    .header-title {
+        font-size: 12px;
+    }
+    .executive-summary {
+        font-size: 12px;
+    }
   }
   .section-header {
     @include section_border_thin;
     margin-bottom: 1rem;
-    h2 { font-size: 1.2rem; line-height: 1.5rem; }
+    h2 { font-size: 15px; line-height: 1.5rem; }
   }
   .content-section {
     margin: 0 0 1rem;
     .resume-item { margin-bottom: 1rem; }
     .resume-item-title {
-      font-size: 16px;
+      font-size: 14px;
       line-height: .7em;
     }
-
     .resume-item-details {
       font-size: 12px;
       margin: 0 0 .75rem;
       line-height: .7em;
       font-style:italic;
-
       &.award-title {
-        font-size: 11px;
+        font-size: 12px;
+      }
+      &.dates {
+        font-size: 10px;
+        font-style:normal;
+        line-height: .75;
       }
     }
   }
