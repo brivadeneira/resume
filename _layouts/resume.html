@@ -115,7 +115,6 @@
       <!-- end Skills -->
       {% endif %}
 
-
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
@@ -146,6 +145,26 @@
       <!-- end Education -->
       {% endif %}
 
+      {% if site.resume_section_languages %}
+      <!-- begin Languages -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>LANGUAGES</h2>
+        </header>
+
+        {% for language in site.data.languages %}
+        <div class="resume-item">
+          <h3 class="resume-item-title" itemprop="description">
+              <li>
+                {{ language.language }}: <i> {{ language.level }} </i>
+              </li>
+            </h3>
+        </div>
+        {% endfor %}
+      </section>
+      <!-- end Languages -->
+      {% endif %}
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
