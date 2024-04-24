@@ -156,10 +156,21 @@
 
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+        <table class="resume-table"><tbody>
+        <!-- Project link | Year -->
+        <tr>
+          <td>
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
+          </td>
+          <td><h4 class="resume-item-details right-align dates" itemprop="description">{{ project.year }}</h4></td>
+        </tr>
+        <!-- Project description -->
+        <tr>
+          <td colspan="2">
+            {{ project.description }}
+          </td>
+        </tr>
+        </tbody></table>
         </div>
         {% endfor %}
 
@@ -177,9 +188,13 @@
 
         {% for recognition in site.data.recognitions %}
         <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
+          <h3 class="resume-item-title" itemprop="description">
+              <li class="resume-item-details recognition-item">
+                  {{ recognition.year }} -
+                  {% if recognition.award_url %}<a href="{{ recognition.award_url }}" itemprop="url">{{ recognition.award }}</a>{% else %}{{ recognition.awards }}{% endif %}
+                by {{ recognition.organization }}
+              </li>
+            </h3>
         </div>
         {% endfor %}
 
@@ -196,10 +211,23 @@
         </header>
 
         {% for association in site.data.associations %}
-        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
-          <p class="resume-item-copy">{{ association.summary }}</p>
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+        <table class="resume-table"><tbody>
+        <!-- Association link | Year -->
+        <tr>
+          <td>
+          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}" itemprop="url">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
+          </td>
+          <td><h4 class="resume-item-details right-align dates" itemprop="description">{{ association.year }}</h4></td>
+        </tr>
+        <!-- Association role: Description -->
+        <tr>
+          <td colspan="2">
+            <h4 class="resume-item-details">{{ association.role }}</h4>
+            {{ association.summary }}
+          </td>
+        </tr>
+        </tbody></table>
         </div>
         {% endfor %}
 
@@ -245,22 +273,6 @@
 
       </section>
       <!-- end Links -->
-      {% endif %}
-
-      {% if site.resume_print_social_links %}
-      <!-- begin Print Social Links -->
-      <section class="content-section print-only">
-
-        <header class="section-header">
-          <h2>Social Links</h2>
-        </header>
-
-        <div class="resume-item">
-        {% include print-social-links.html %}
-        </div>
-
-      </section>
-      <!-- end Print Social Links -->
       {% endif %}
 
       <footer class="page-footer">
