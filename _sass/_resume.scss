@@ -72,7 +72,7 @@
 
   .executive-summary {
     @include media_larger_than_mobile {
-        font-size: 1.125rem;
+        font-size: 1.250rem;
         text-align: justify;
     }
   }
@@ -108,6 +108,7 @@
   .resume-item { margin-bottom: 2rem;
       &.skills {
       font-size: 1.250rem;
+      text-align: justify;
     }}
 
   .resume-item-title {
@@ -127,6 +128,7 @@
     }
     &.dates {
       font-size: 1rem;
+      font-style: italic;
     }
     &.recognition-item {
       font-size: 1rem;
@@ -164,6 +166,7 @@
 }
 
 .resume-table td {
+  font-size: 1.125rem;
   padding: 0;
   margin: 0;
   vertical-align: top; /* Align content to the top of the cell */
@@ -172,6 +175,7 @@
 .resume-table .right-align {
   text-align: right;
 }
+
 
 .resume-item-copy {
   margin-top: 0; /* Reduce top margin of the summary paragraph */
@@ -227,7 +231,7 @@
         font-size: 12px;
     }
     .executive-summary {
-        font-size: 12px;
+        font-size: 13px;
     }
   }
   .section-header {
@@ -235,11 +239,21 @@
     margin-bottom: 1rem;
     h2 { font-size: 15px; line-height: 1.5rem; }
   }
+      .resume-table td[colspan="2"] {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .resume-table td[colspan="2"] li {
+        font-size: 12px;
+        text-align: justify;
+    }
   .content-section {
     margin: 0 0 1rem;
     .resume-item { margin-bottom: 1rem;
           &.skills {
       font-size: 13px;
+
     }}
     .resume-item-title {
       font-size: 12px;
@@ -254,7 +268,7 @@
       }
       &.dates {
         font-size: 10px;
-        font-style:normal;
+        font-style: stylel;
         line-height: .75;
       }
       &.resume-item-details.right-align {

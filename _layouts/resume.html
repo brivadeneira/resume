@@ -80,8 +80,8 @@
           </tr>
           <tr>
             <!-- Summary and bullets -->
-            <td colspan="2">
-              {{ job.company_summary }}
+            <td colspan="2" class="combined">
+              <i> {{ job.company_summary }} </i>
               {% for bullet in job.bullet_points %}
               <li> {{ bullet }} </li>
               {% endfor %}
@@ -185,7 +185,7 @@
         </tr>
         <!-- Project description -->
         <tr>
-          <td colspan="2">
+          <td colspan="2" class="combined">
             {{ project.description }}
           </td>
         </tr>
