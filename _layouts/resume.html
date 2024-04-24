@@ -83,7 +83,7 @@
             <td colspan="2">
               {{ job.company_summary }}
               {% for bullet in job.bullet_points %}
-              <li> bullet </li>
+              <li> {{ bullet }} </li>
               {% endfor %}
             </td>
           </tr>
@@ -102,13 +102,15 @@
         <header class="section-header">
           <h2>SKILLS</h2>
         </header>
-        {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
-        </div>
+        <div class="resume-item skills">
+        {% for skill in site.data.skills.hard_skills %}
+          {{ skill }}{% if forloop.last %}{% else %} &bull;{% endif %}
         {% endfor %}
-
+        <br> <!-- Add a break line between soft and hard skills -->
+        {% for skill in site.data.skills.soft_skills %}
+          {{ skill }}{% if forloop.last %}{% else %} &bull;{% endif %}
+        {% endfor %}
+        </div>
       </section>
       <!-- end Skills -->
       {% endif %}
