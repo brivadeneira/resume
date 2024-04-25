@@ -1,10 +1,30 @@
 # Skills
 hard_skills:
-  - HTML
-  - CSS
-  - Pikachu
-  - JavaScript
-  - SQL
+ - Python
+ - Bash
+ - Golang
+ - Ruby
+ - jupyter
+ - pandas
+ - pytest
+ - unittest
+ - Linux
+ - Unix
+ - APIs
+ - HTTP REST
+ - fastAPI
+ - git
+ - SQL
+ - PostgreSQL
+ - AWS
+ - Docker
+ - Kubernetes
+ - ETL
+ - pySpark
+ - CI/CD
+ - Databricks
 soft_skills:
-  - Organizational leadership
-  - Communications strategy
+ - Agile
+ - Scrum
+ - TDD
+ - Problem-solving

@@ -1,36 +1,53 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  company_url: https://rrhh.org
-  company_summary: Write a short description of the company and the team
-  position: VP of Global Communications
-  location: Springfield, US
-  duration: Oct, 2013 &mdash; Present
+- company: Spire
+  company_url: https://spire.com/
+  company_summary: Satellite space-based data global company, 4-member hyperspectral microwaves team.
+  position: Data Software Engineer
+  location: Harwell Campus, England, UK
+  duration: Nov 2023 &mdash; Present
   bullet_points:
-    - Your impact by using numbers and metrics
-    - Another one
-    - A project you are proud of
+    - Led the strategic <b>Ground Processing Data</b> design for the pioneering In-orbit atmosphere sounder.
+    - Architecture design for over TB/day of data from +5 sources using a state-of-the-art tech stack <b>PySpark, AWS, Grafana, and Databricks.</b>
+    - Engineered software for prototyping and assessing quality across +10 advanced lab instruments.
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  company_url: https://rrhh.org
-  company_summary: Write a short description of the company and the team
-  position: Director of Digital Strategy
-  location: Springfield, US
-  duration:  Jun, 2010 &mdash; Sept, 2013
+- company: ShipHero
+  company_url: https://shiphero.com/
+  company_summary: E-commerce, warehouse management services platform, 5-member engineering team
+  position: Software Engineer
+  location: New York, US
+  duration:  Apr 2022 &mdash; Oct 2023
   bullet_points:
-    - Your impact by using numbers and metrics
-    - Another one
-    - A project you are proud of
+  - Played a pivotal role in maintaining and refactoring code for +30 carrier integrations using <b>Python, Flask, GraphQL, and AWS.</b>
+  - Heading the <i>Amazon Merchant API</i> migration and integration, for <i>+1k products/month</i>.
+  - Effectively implemented Locus stress tests to manage <b>1M+ pre-order traffic</b>.
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  company_url: https://rrhh.org
-  company_summary: Write a short description of the company and the team
-  position: Communications Coordinator
-  location: Springfield, US
-  duration:   Jun, 2008  &mdash; May, 2010
+- company: Properati from OLX
+  company_url: https://www.properati.com.ar/
+  company_summary: LATAM real estate start-up, 8-member sellers side features team
+  position: Software Engineer
+  location: Buenos Aires, AR
+  duration: Apr 2021 &mdash; Apr 2022
   bullet_points:
-    - Your impact by using numbers and metrics
-    - Another one
-    - A project you are proud of
+    - Partnering in <i>microservices</i> migration, maintenance, restructuring, and feature development for a service handling <i>+4M users</i>, using <b>Golang, Ruby, Bash, and Python.</b>
+    - Efficiently managed the creation of a recommender with <i>Gorse</i>, enhancing precision by 0.4.
+    - Enhancing and scaling Python code for the geo-core API to accommodate over <i>+4M locations</i>.
+
+- company: Welo TV
+  company_url: https://welo.tv/
+  company_summary: RTMP and HTTP multimedia streaming on-demand start-up 7-member company
+  position: Backend Developer and Telco consultant
+  location: Córdoba, AR
+  duration: Dec 2020 &mdash; Apr 2021
+  bullet_points:
+    - Successfully refactored +4 projects focused on code modernization using <b>Python, fastAPI, jwplatform, elasticsearch, Gcloud, docker, Kubernetes.</b>
+    - Conducted extensive research and provided recommendations on networking protocol implementations.
+
+- company: AG Projects
+  company_url: https://ag-projects.com/
+  company_summary: Real-time communication systems and public domain packages 3-member company
+  position: Python RTC Developer
+  location: Amsterdam, NLD
+  duration: Dec 2019 &mdash; Dec 2020
+  bullet_points:
+  - Survived the migration of +5 Twisted projects from <b>Python/Cython 2 to 3</b> using a modern stack.
+  - Happily launched the development of an async <a href="https://github.com/AGProjects/sylk-pushserver"> Mobile push notifications RTC server</a> from scratch to deb package creation, leveraging <b>fastAPI</b> and compatible with over <i>+20 RTC standards.</i>

@@ -1,13 +1,8 @@
-# Degree
-- degree: Telecommunications Engineering
-  uni: UNRC
-  uni_url: https://www.unrc.edu.ar/unrc/carreras/ProgAsig3.php?n=VEJFdFA3bnY2aE44QzBFRVhVRGZydz09
-  location: Río Cuarto, Córdoba, AR
-  year: 2019
+# Languages
+- language: English
+  level: B2, upper intermediate
 
-- degree: High School Diploma
-  uni: UNJu
-  uni_url: https://virtual.unju.edu.ar/course/index.php?categoryid=75
-  location: IT Technician
-  year: 2012
+- language: Spanish
+  level: native
+
 
