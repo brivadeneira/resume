@@ -1,10 +1,23 @@
 # Jobs
+- company: Mitiga Solutions
+  company_url: https://www.mitigasolutions.com/
+  company_summary: Climate risk intelligence mid-size company, 5-member engineering team.
+  position: GIS Data Engineer
+  location: Barcelona, Spain
+  duration: Jun 2024 &mdash; Present
+  bullet_points:
+  - Led the strategic design and development of the company's <b>Geospatial Platform</b> to drive innovation across all verticals.
+  - Architected geospatial solutions supporting multiple business units with technologies like <b>Azure, Python, and Argo</b>.
+  - Defined the technical vision and roadmap for geospatial engineering, ensuring seamless integration of data across the organization.
+  - Engineered and maintained robust geo data pipelines to streamline operations and enhance data accessibility.
+  - Stayed at the forefront of <b>emerging geospatial engineering technologies</b>, implementing best practices to ensure high-quality solutions.
+
 - company: Spire
   company_url: https://spire.com/
   company_summary: Satellite space-based data global company, 4-member hyperspectral microwaves team.
   position: Data Software Engineer
   location: Harwell Campus, England, UK
-  duration: Nov 2023 &mdash; Present
+  duration: Nov 2023 &mdash; May 2024
   bullet_points:
     - Led the strategic <b>Ground Processing Data</b> design for the pioneering In-orbit atmosphere sounder.
     - Architecture design for over TB/day of data from +5 sources using a state-of-the-art tech stack <b>PySpark, AWS, Grafana, and Databricks.</b>
