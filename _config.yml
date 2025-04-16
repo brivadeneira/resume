@@ -19,7 +19,9 @@ resume_contact_email:           "brivadeneira@protonmail.com"
 resume_contact_address_city:         "Lisbon"
 resume_contact_address_country_code: "PT"
 
-resume_header_intro: "<p>+5 years of hands-on experience in <b>Backend Software Development</b>, a <b>Telecommunications Engineering degree</b>, and developing Data Engineering skills. Strongly Interested in space-based, science data projects.</p>"
+resume_header_intro: "<p>+6 years of hands-on experience in <b>Backend Software Development</b>, 
+a <b>Telecommunications Engineering degree</b>, and developing <b>GIS Data Engineering skills</b>. 
+Strongly Interested in space-based, science data projects, to contributing to social impact and <b>open-source</b> initiatives.</p>"
 
 # Decide which sections to use
 # comment out to hide

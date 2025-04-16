@@ -6,11 +6,11 @@
   location: Barcelona, Spain
   duration: Jun 2024 &mdash; Present
   bullet_points:
-  - Led the strategic design and development of the company's <b>Geospatial Platform</b> to drive innovation across all verticals.
-  - Architected geospatial solutions supporting multiple business units with technologies like <b>Azure, Python, and Argo</b>.
-  - Defined the technical vision and roadmap for geospatial engineering, ensuring seamless integration of data across the organization.
-  - Engineered and maintained robust geo data pipelines to streamline operations and enhance data accessibility.
-  - Stayed at the forefront of <b>emerging geospatial engineering technologies</b>, implementing best practices to ensure high-quality solutions.
+    - Improved and maintained 3+ <b>FastAPI-based microservices</b> using backend best practices and <b>TDD</b>.
+    - Refactored legacy code and centralized reusable <b>Python modules</b>, <b>CI/CD pipelines (GitHub Actions)</b>, and <b>Helm templates</b>, cutting setup time and improving maintainability.
+    - Led API load and stress testing with <b>Locust</b>, identified 15+ bugs, and increased throughput by 350%.
+    - Established internal backend engineering standards and onboarding docs (<b>testing</b>, <b>docs</b>, <b>DoR/DoD</b>, <b>pre-commit hooks</b>, <b>PR templates</b>, <b>ticket structure</b>).
+    - Led backend efforts on <b>geospatial and climate data systems</b>, mentoring contributors and defining workflows for <b>STAC-like metadata</b> and <b>Zarr/Parquet</b> formats across teams.
 
 - company: Spire
   company_url: https://spire.com/
