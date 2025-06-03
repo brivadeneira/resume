@@ -1,5 +1,5 @@
 # Site settings
-title: "Bibiana Mollinedo Rivadeneira resume Apr 2024"
+title: "resume Bibiana Mollinedo Rivadeneira - Data Software Engineer | Python & Backend Developer"
 description: "live resume"
 
 # Build settings
@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_name:                    "Bibiana Mollinedo Rivadeneira"
-resume_title:                   "Data Software Engineer"
+resume_title:                   "Data Software Engineer | Python & Backend Developer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "brivadeneira@protonmail.com"
@@ -19,9 +19,12 @@ resume_contact_email:           "brivadeneira@protonmail.com"
 resume_contact_address_city:         "Lisbon"
 resume_contact_address_country_code: "PT"
 
-resume_header_intro: "<p>+6 years of hands-on experience in <b>Backend Software Development</b>, 
-a <b>Telecommunications Engineering degree</b>, and developing <b>GIS Data Engineering skills</b>. 
-Strongly Interested in space-based, science data projects, to contributing to social impact and <b>open-source</b> initiatives.</p>"
+resume_header_intro:
+  "<p><b>Backend Software Engineer</b> with 6+ years of experience.
+   Developing skills in <b>GIS and Data Engineering</b>,
+   with a <b>Telecommunications Engineering degree</b>.
+   Strong interest in <b>space-based and scientific data projects, with a focus on contributing to open-source 
+   and socially impactful</b> initiatives."
 
 # Decide which sections to use
 # comment out to hide

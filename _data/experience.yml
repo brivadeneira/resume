@@ -6,44 +6,42 @@
   location: Barcelona, Spain
   duration: Jun 2024 &mdash; Present
   bullet_points:
-    - Improved and maintained 3+ <b>FastAPI-based microservices</b> using backend best practices and <b>TDD</b>.
-    - Refactored legacy code and centralized reusable <b>Python modules</b>, <b>CI/CD pipelines (GitHub Actions)</b>, and <b>Helm templates</b>, cutting setup time and improving maintainability.
-    - Led API load and stress testing with <b>Locust</b>, identified 15+ bugs, and increased throughput by 350%.
-    - Established internal backend engineering standards and onboarding docs (<b>testing</b>, <b>docs</b>, <b>DoR/DoD</b>, <b>pre-commit hooks</b>, <b>PR templates</b>, <b>ticket structure</b>).
-    - Led backend efforts on <b>geospatial and climate data systems</b>, mentoring contributors and defining workflows for <b>STAC-like metadata</b> and <b>Zarr/Parquet</b> formats across teams.
+    - Redesigned and migrated a legacy pluvial <b>flooding prediction pipeline</b> using <b>Azure Blob, Argo Workflows</b>, and <b>geospatial formats</b> <i>(GeoJSON, Zarr, Parquet)</i>; introduced <b>DuckDB indexing</b> to accelerate spatial queries.
+    - Led backend improvements on <b>3+ FastAPI microservices for climate risk APIs</b> by rewriting and modernizing legacy code, modularized <b>10+ Python components</b>, and standardized CI/CD <b>(GitHub Actions, Helm)</b>; cut setup time by <b>80%</b>, established internal engineering standards (TDD, DoR/DoD, PR templates, pre-commit hooks).
+    - Designed and executed API <b>stress/load tests with Locust</b> on the same services; uncovered and resolved <b>15+ bottlenecks</b>, increasing <b>throughput by 350%</b> under high-load simulations.
 
 - company: Spire
   company_url: https://spire.com/
   company_summary: Satellite space-based data global company, 4-member hyperspectral microwaves team.
-  position: Ground Processing Data Engineer | Software Engineer for Space prototyping
+  position: Ground Processing Data Engineer
   location: Harwell Campus, England, UK
   duration: Nov 2023 &mdash; May 2024
   bullet_points:
     - Led the strategic <b>Ground Processing Data</b> design for the pioneering In-orbit atmosphere sounder.
-    - Architecture design for over TB/day of data from +5 sources using a state-of-the-art tech stack <b>PySpark, AWS, Grafana, and Databricks.</b>
-    - Engineered software for prototyping and assessing quality across +10 advanced lab instruments.
+    - Architecture design for over TB/day of data from <b>+5 sources</b> using a state-of-the-art tech stack <b>PySpark, AWS, Grafana, and Databricks.</b>
+    - Developed automated quality-assessment pipelines for over <b>10 hyperspectral lab instruments</b>, enhancing signal accuracy and reducing manual validation <b>time by 40%</b>.
 
 - company: ShipHero
   company_url: https://shiphero.com/
   company_summary: E-commerce, warehouse management services platform, 5-member engineering team
-  position: Software Engineer
+  position: Backend Software Engineer
   location: New York, US
   duration:  Apr 2022 &mdash; Oct 2023
   bullet_points:
-  - Played a pivotal role in maintaining and refactoring code for +30 carrier integrations using <b>Python, Flask, GraphQL, and AWS.</b>
-  - Heading the <i>Amazon Merchant API</i> migration and integration, for <i>+1k products/month</i>.
+  - Played a pivotal role in maintaining and improving code for <b>+30 carrier integrations</b> using <b>Python, Flask, GraphQL, and AWS.</b>
+  - Heading the <i>Amazon Merchant API</i> migration and integration, for <i><b>+1k products/month</b></i>.
   - Effectively implemented Locus stress tests to manage <b>1M+ pre-order traffic</b>.
 
 - company: Properati from OLX
   company_url: https://www.properati.com.ar/
   company_summary: LATAM real estate start-up, 8-member sellers side features team
-  position: Software Engineer
+  position: Backend Software Engineer
   location: Buenos Aires, AR
   duration: Apr 2021 &mdash; Apr 2022
   bullet_points:
-    - Partnering in <i>microservices</i> migration, maintenance, restructuring, and feature development for a service handling <i>+4M users</i>, using <b>Golang, Ruby, Bash, and Python.</b>
-    - Efficiently managed the creation of a recommender with <i>Gorse</i>, enhancing precision by 0.4.
-    - Enhancing and scaling Python code for the geo-core API to accommodate over <i>+4M locations</i>.
+    - Partnering in <i>microservices</i> migration, maintenance, restructuring, and feature development for a service handling <i><b>+4M users</b></i>, using <b>Golang, Ruby, Bash, and Python.</b>
+    - Efficiently managed the creation of a recommender with <i>Gorse</i>, enhancing <b>precision by 0.4</b>.
+    - Enhancing and scaling Python code for the geo-core API to accommodate over <b><i>+4M locations</i></b>.
 
 - company: Welo TV
   company_url: https://welo.tv/
@@ -52,7 +50,7 @@
   location: Córdoba, AR
   duration: Dec 2020 &mdash; Apr 2021
   bullet_points:
-    - Successfully refactored +4 projects focused on code modernization using <b>Python, fastAPI, jwplatform, elasticsearch, Gcloud, docker, Kubernetes.</b>
+    - Successfully refactored <b>+4 projects</b> focused on code modernization using <b>Python, fastAPI, jwplatform, elasticsearch, Gcloud, docker, Kubernetes.</b>
     - Conducted extensive research and provided recommendations on networking protocol implementations.
 
 - company: AG Projects
@@ -62,5 +60,5 @@
   location: Amsterdam, NLD
   duration: Dec 2019 &mdash; Dec 2020
   bullet_points:
-  - Survived the migration of +5 Twisted projects from <b>Python/Cython 2 to 3</b> using a modern stack.
-  - Happily launched the development of an async <a href="https://github.com/AGProjects/sylk-pushserver"> Mobile push notifications RTC server</a> from scratch to deb package creation, leveraging <b>fastAPI</b> and compatible with over <i>+20 RTC standards.</i>
+  - Survived the migration of <b>+5 Twisted projects</b> from <b>Python/Cython 2 to 3</b> using a modern stack.
+  - Happily launched the development of an async <a href="https://github.com/AGProjects/sylk-pushserver"> Mobile push notifications RTC server</a> from scratch to deb package creation, leveraging <b>fastAPI</b> and compatible with over <b><i>+20 RTC standards.</i></b>
