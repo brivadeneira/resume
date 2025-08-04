@@ -20,11 +20,13 @@ resume_contact_address_city:         "Lisbon"
 resume_contact_address_country_code: "PT"
 
 resume_header_intro:
-  "<p><b>Backend Software Engineer</b> with 6+ years of experience.
-   Developing skills in <b>GIS and Data Engineering</b>,
-   with a <b>Telecommunications Engineering degree</b>.
-   Strong interest in <b>space-based and scientific data projects, with a focus on contributing to open-source 
-   and socially impactful</b> initiatives."
+  "<p>
+     <b>Backend Engineer</b> with <b>6+ years</b> of experience and a <b>Telecom Engineering degree</b>. 
+     Skilled in <b>Python</b> (<i>FastAPI, Flask</i>), <b>REST APIs</b>, <b>CI/CD</b>, and <b>geospatial pipelines</b> 
+     (<i>Zarr, Parquet</i>). Experienced with <i>AWS</i>, <i>Azure</i>, and <b>space-based climate data</b>. 
+     Seeking <b>remote, impact-driven roles</b> in <i>backend</i> and <i>scientific computing</i>.
+   </p>"
+
 
 # Decide which sections to use
 # comment out to hide
