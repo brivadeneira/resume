@@ -1,14 +1,24 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-- project: farecito
+- project: Jaguar (Yaguarete) NDVI habitat monitoring | EOPF Competition
+  year: 2026
+  url: "https://github.com/eopf-toolkit/community-notebook-competition/blob/main/submissions/yaguarete-wildfire-corridors-vegetation/submission.ipynb"
+  description: Cloud-native tool to track wildfire risks in South America using <i>Python, EOPF toolkit, pystac client and Zarr, Sentinel-2, geopandas, rasterio, folium</i>.
+
+- project: geoapi_locust_testkit | Personal project
+  year: 2026
+  url: "https://github.com/brivadeneira/geoapi_locust_testkit"
+  description: Custom locust-based python test suite for dynamic API testing with geo-faker parameter generation. Using <i>Python, locust, geopandas, shapely</i>.
+
+- project: farecito | Personal project
   year: 2023
   url: "https://github.com/brivadeneira/farecito"
-  description: Cheap bus trip data scraping, graph-like db storage, and Telegram alerting.
+  description: Cheap bus trip data scraping, graph-like db storage, and Telegram alerting. Using <i> python, asyncio, geopy, pydantic, neo4j</i>.
 
 
-- project: OptiGaussPy
+- project: OptiGaussPy | Academic project at Telecommunications Engineering degree
   year: 2019
   url: "https://github.com/brivadeneira/OptiGaussPy"
-  description: Interactive simulation of optical waves in jupyter for Ed
+  description: Interactive simulation of optical waves in jupyter for Ed using <i>numpy, scipy for signals, matplotlib, ipywidgets</i>.
 

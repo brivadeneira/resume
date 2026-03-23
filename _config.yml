@@ -1,5 +1,5 @@
 # Site settings
-title: "resume Bibiana Mollinedo Rivadeneira - Data Software Engineer | Python & Backend Developer"
+title: "resume Bibiana Mollinedo Rivadeneira - Senior Backend & Geospatial Data Engineer"
 description: "live resume"
 
 # Build settings
@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_name:                    "Bibiana Mollinedo Rivadeneira"
-resume_title:                   "Data Software Engineer | Python & Backend Developer"
+resume_title:                   "Senior Backend & Geospatial Data Engineer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "brivadeneira@protonmail.com"
@@ -21,10 +21,10 @@ resume_contact_address_country_code: "PT"
 
 resume_header_intro:
   "<p>
-     <b>Backend Engineer</b> with <b>6+ years</b> of experience and a <b>Telecom Engineering degree</b>. 
-     Skilled in <b>Python</b> (<i>FastAPI, Flask</i>), <b>REST APIs</b>, <b>CI/CD</b>, and <b>geospatial pipelines</b> 
-     (<i>Zarr, Parquet</i>). Experienced with <i>AWS</i>, <i>Azure</i>, and <b>space-based climate data</b>. 
-     Seeking <b>remote, impact-driven roles</b> in <i>backend</i> and <i>scientific computing</i>.
+     <b>6+ years</b> of experience and a <b>Telecom Engineering degree</b>. 
+     Skilled in <b>Python</b>, <b>REST APIs</b>, <b>CI/CD</b>, and <b>cloud geospatial pipelines</b> 
+     (<i>Zarr, Parquet</i>) handling <b>space-based climate data</b>. 
+     Seeking <b>remote, impact-driven roles</b>.
    </p>"
 
 

@@ -1,44 +1,49 @@
 # Skills
+
 hard_skills:
-  - Python (advanced)
+  # Programming Languages & Tools
+  - <b>Python (advanced)</b>
   - Bash (intermediate)
   - Golang (basic)
   - Ruby (basic)
-  - FastAPI
-  - Jupyter
+  - SQL
+  - PySpark (basic)
+  - Jupyter Notebooks
   - Pandas
   - Pytest
   - Unittest
-  - PySpark (basic)
 
-  - AWS
-  - Azure Blob Storage (basic)
+  # Web & API Development
+  - <b>FastAPI</b>
+  - Flask
+  - GraphQL (basic)
+  - Locust
+
+  # Cloud & Infrastructure
+  - Git
   - Docker
   - Kubernetes
+  - AWS
+  - Azure Blob Storage
+  - GitHub Actions (CI/CD)
   - Helm
-  - Argo Workflows (basic)
+  - Argo Workflows
 
-  - PostgreSQL
-  - SQL
-  - ETL pipelines
+  # Geospatial & Scientific Data
+  - <b>GIS data engineering</b>
+  - COG, Zarr, Parquet, STAC, GeoJSON, xarray
+  - DuckDB
+  - ETL
   - Databricks (basic)
-  - Geospatial data, STAC, Zarr, Parquet
-  - GIS data engineering
+  - Mapbox
 
-  - Git
-  - GitHub Actions CI/CD workflows
-
-  - TCP/IP fundamentals
-  - HTTP/HTTPS protocols
+  # Networking & Protocols
+  - TCP/IP
+  - HTTP/HTTPS
   - DNS and Load Balancing
   - VPN and SSH
 
 soft_skills:
-- Agile
-- Scrum
-
-- Remote-first workflows
-- Async communication
-- Transparent, open collaboration
-- Mentorship
-- Continuous learning
+  - <b>Agile & Scrum</b>
+  - Remote-first & async workflows
+  - <b>TDD</b>

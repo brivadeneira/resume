@@ -2,13 +2,14 @@
 - company: Mitiga Solutions
   company_url: https://www.mitigasolutions.com/
   company_summary: Climate risk intelligence mid-size company, 5-member engineering team.
-  position: GIS Data Engineer
+  position: Senior Backend & GIS Data Engineer (IC Level 3)
   location: Barcelona, Spain
   duration: Jun 2024 &mdash; Present
   bullet_points:
-    - Redesigned and migrated a legacy pluvial <b>flooding prediction pipeline</b> using <b>Azure Blob, Argo Workflows</b>, and <b>geospatial formats</b> <i>(GeoJSON, Zarr, Parquet)</i>; introduced <b>DuckDB indexing</b> to accelerate spatial queries.
-    - Led backend improvements on <b>3+ FastAPI microservices for climate risk APIs</b> by rewriting and modernizing legacy code, modularized <b>10+ Python components</b>, and standardized CI/CD <b>(GitHub Actions, Helm)</b>; cut setup time by <b>80%</b>, established internal engineering standards (TDD, DoR/DoD, PR templates, pre-commit hooks).
-    - Designed and executed API <b>stress/load tests with Locust</b> on the same services; uncovered and resolved <b>15+ bottlenecks</b>, increasing <b>throughput by 350%</b> under high-load simulations.
+    - Led the refactor and optimization of +3 backend microservices to handle +10 different climate data signals in <b>zarr v2/3 and parquet</b>, using <b>FastAPI</b>.
+    - Led <b>stress and load tests using custom Locust</b> for geocoding. Found and fixed more than 15 bottlenecks, making the system <b>much faster and resilient</b> under high load.
+    - Standardized deployments workflows using <b>Helm and GitHub Actions</b>, spreading best practices and cutting developer setup time by 80%.
+    - Redesigned a legacy pluvial <b>flooding prediction pipeline</b> using <b>Azure Blob, Argo Workflows</b>, and <b>geospatial formats</b> <i>(GeoJSON, Zarr, Parquet)</i>; reduced query time by 60% with <b>DuckDB filtering</b> on H3-indexed Zarr datasets.
 
 - company: Spire
   company_url: https://spire.com/
@@ -17,9 +18,10 @@
   location: Harwell Campus, England, UK
   duration: Nov 2023 &mdash; May 2024
   bullet_points:
-    - Led the strategic <b>Ground Processing Data</b> design for the pioneering In-orbit atmosphere sounder.
-    - Architecture design for over TB/day of data from <b>+5 sources</b> using a state-of-the-art tech stack <b>PySpark, AWS, Grafana, and Databricks.</b>
-    - Developed automated quality-assessment pipelines for over <b>10 hyperspectral lab instruments</b>, enhancing signal accuracy and reducing manual validation <b>time by 40%</b>.
+    - Designed ground data processing architecture for handling terabytes/day from <b>5+ sources</b> in near-real time with <b>PySpark, AWS, Databricks, and Grafana</b>.
+    - Introduce an user friendly interface for remote control of satellite prototype <i>(via SCPI and CAN Bus)</i>, for operational monitoring and validation using a raspberry pi, jupyter notebooks.
+    - Automated quality assessment for <b>10+ hyperspectral lab instruments</b>, boosting signal accuracy and reducing the 100% of manual validation efforts.
+    - Developed monitoring dashboards to proactively detect anomalies, improving data reliability and operational efficiency.
 
 - company: ShipHero
   company_url: https://shiphero.com/
@@ -28,9 +30,9 @@
   location: New York, US
   duration:  Apr 2022 &mdash; Oct 2023
   bullet_points:
-  - Played a pivotal role in maintaining and improving code for <b>+30 carrier integrations</b> using <b>Python, Flask, GraphQL, and AWS.</b>
-  - Heading the <i>Amazon Merchant API</i> migration and integration, for <i><b>+1k products/month</b></i>.
-  - Effectively implemented Locus stress tests to manage <b>1M+ pre-order traffic</b>.
+    - Maintained and improved code for <b>30+ carrier integrations</b> using <b>Python, Flask, GraphQL, and AWS</b>.
+    - Led migration and integration of the <i>Amazon Merchant API</i>, processing <b>1,000+ products/month</b>.
+    - Implemented <b>Locust stress tests</b> to handle over <b>1M pre-order transactions</b>, ensuring system stability.
 
 - company: Properati from OLX
   company_url: https://www.properati.com.ar/
@@ -39,9 +41,9 @@
   location: Buenos Aires, AR
   duration: Apr 2021 &mdash; Apr 2022
   bullet_points:
-    - Partnering in <i>microservices</i> migration, maintenance, restructuring, and feature development for a service handling <i><b>+4M users</b></i>, using <b>Golang, Ruby, Bash, and Python.</b>
-    - Efficiently managed the creation of a recommender with <i>Gorse</i>, enhancing <b>precision by 0.4</b>.
-    - Enhancing and scaling Python code for the geo-core API to accommodate over <b><i>+4M locations</i></b>.
+    - Partnered the transition from a legacy <b>monolithic system</b> to a <b>distributed microservices architecture</b> serving <b>4M+ users</b>, using <b>Golang, Ruby, Bash, and Python</b>.
+    - Developed a recommender system with <i>Gorse</i>, boosting precision by 0.4.
+    - Scaled the Python geo-core API to handle <i><b>4M+ location records</b></i> with faster response times.
 
 - company: Welo TV
   company_url: https://welo.tv/
@@ -50,12 +52,12 @@
   location: Córdoba, AR
   duration: Dec 2020 &mdash; Apr 2021
   bullet_points:
-    - Successfully refactored <b>+4 projects</b> focused on code modernization using <b>Python, fastAPI, jwplatform, elasticsearch, Gcloud, docker, Kubernetes.</b>
-    - Conducted extensive research and provided recommendations on networking protocol implementations.
+    - Refactored 4+ projects focused on modernization using <b>Python, FastAPI, jwplatform, Elasticsearch, GCloud, Docker, and Kubernetes</b>.
+    - Researched networking protocols and provided implementation recommendations.
 
 - company: AG Projects
   company_url: https://ag-projects.com/
-  company_summary: Real-time communication systems and public domain packages 3-member company
+  company_summary: Real-time communication Open source systems and public domain packages 3-member company
   position: Python RTC Developer
   location: Amsterdam, NLD
   duration: Dec 2019 &mdash; Dec 2020
